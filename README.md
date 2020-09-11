@@ -11,6 +11,6 @@
 8. Variables to authenticate with your resources will be output.
 8. Visit <public_ip>.
 9. To SSH into the virtual machine instance
-    ``` echo "<tls_private_key>"> tls_private_key.pem && chmod 600 <private-key-name>.pem ```
+    ``` echo "<tls_private_key>" > tls_private_key.pem && chmod 600 <private-key-name>.pem ```
     ``` ssh <admin_username>@<public_ip> -i ./<private-key-name>.pem ```
 10. You're done!
