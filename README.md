@@ -7,7 +7,7 @@
 4. Move into the repository ``` cd <repository-name> ```.
 5. Run ``` terraform init ```
 6. Run ``` terraform plan ```
-7. Run ``` terraform apply ```
+7. Run ``` terraform apply -auto-approve ```
 8. Variables to authenticate with your resources will be output.
 8. Visit <public_ip>.
 9. To SSH into the virtual machine instance

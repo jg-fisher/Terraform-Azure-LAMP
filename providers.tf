@@ -4,5 +4,5 @@ provider "azurerm" {
 }
 
 provider "tls" {
-    version = "=2.2"
+    version = "=2.2.0"
 }
